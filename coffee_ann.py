@@ -22,7 +22,7 @@ app = dash.Dash(__name__,requests_pathname_prefix='/coffee_machine/',external_st
 #flask_app =app.server
 
 #data processing
-df=pd.read_sql_table('coffee_machine', 'sqlite:///ml.db')
+df=pd.read_sql_table('coffee_machine_test', 'sqlite:///ml_test.db')
 df_half = pd.DataFrame ({'Wh':(df.groupby(pd.Grouper(freq='30T',key='time'))['kWh'].sum().ffill()*1000)})
 df_half ['Hour'] = df_half.index.hour
 df_half['Hour'] = df_half.Hour.map(str) + ':00 ' # format hour string
