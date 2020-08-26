@@ -1,5 +1,5 @@
 # For demostration purpose, please navigate to the website via :https://ann-model.azurewebsites.net 
-The coffee machine page might take some time to load, please allow more time to view the dashboard.
+The coffee machine page might take some time to load, please wait a bit more time to view the dashboard.
 
 # ANN_Model
 This website is built mainly based on Dash, which is written on Flask.  
