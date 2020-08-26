@@ -1,3 +1,6 @@
+# For demostration purpose, please navigate to the website via :https://ann-model.azurewebsites.net 
+The coffee machine page might take some time to load, please allow more time to view the dashboard.
+
 # ANN_Model
 This website is built mainly based on Dash, which is written on Flask.  
 This project is to simulate live updated electricity consumption and ANN forecasting model. Due to the size and credential issues the db has been subset already.
