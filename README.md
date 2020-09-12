@@ -9,4 +9,4 @@ Again, because of the size problem the uploaded db only contains coffee machine 
 Intruction of runing this website:
 1)download all the files in one folder.
 2)install requirements.txt
-3)run 'run.py' in your virtualenv.
+3)run 'run.py' on your virtualenv.
